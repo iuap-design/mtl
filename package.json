@@ -1,7 +1,6 @@
 {
   "name": "mtl-framework",
   "version": "0.0.5",
-  "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios": "react-native run-ios",
