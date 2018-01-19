@@ -1,12 +1,12 @@
 # mtl-framework 多端开发框架
 
 
-[![npm version](https://img.shields.io/npm/v/mtl.svg)](https://www.npmjs.com/package/mtl)
-[![Build Status](https://img.shields.io/travis/iuap-design/mtl/master.svg)](https://travis-ci.org/iuap-design/mtl)
-[![Coverage Status](https://coveralls.io/repos/github/iuap-design/mtl/badge.svg?branch=master)](https://coveralls.io/github/iuap-design/mtl?branch=master)
-[![NPM downloads](http://img.shields.io/npm/dm/mtl.svg?style=flat)](https://npmjs.org/package/mtl)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl.svg)](http://isitmaintained.com/project/iuap-design/mtl "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl.svg)](http://isitmaintained.com/project/iuap-design/mtl "Percentage of issues still open")
+[![npm version](https://img.shields.io/npm/v/mtl-framework.svg)](https://www.npmjs.com/package/mtl-framework)
+[![Build Status](https://img.shields.io/travis/iuap-design/mtl-framework/master.svg)](https://travis-ci.org/iuap-design/mtl-framework)
+[![Coverage Status](https://coveralls.io/repos/github/iuap-design/mtl-framework/badge.svg?branch=master)](https://coveralls.io/github/iuap-design/mtl-framework?branch=master)
+[![NPM downloads](http://img.shields.io/npm/dm/mtl-framework.svg?style=flat)](https://npmjs.org/package/mtl-framework)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Percentage of issues still open")
 
 基于 `React Native` 的移动 `App` 开发框架
 
