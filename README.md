@@ -47,7 +47,7 @@ $ ynpm i
 ## 4、项目结构说明
 
 ```
-src - App项目React Native部分目录
+src - 
 ├── api - 应用网络请求相关配置
 ├── app.js  - React Native部分入口js文件
 ├── components  - 可复用纯UI组件，也可作elements
