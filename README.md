@@ -32,18 +32,19 @@ React Native App 开发框架
 
 ## 项目结构说明
 
-- src - App项目React Native部分目录
-
-- ├── api - 应用网络请求相关配置
-- ├── app.js  - React Native部分入口js文件
-- ├── components  - 可复用纯UI组件，也可作elements
-- ├── config  - 应用全局配置
-- ├── constants - 应用全局变量
-- ├── containers  - 容器组件
-- ├── helpers - 全局工具／辅助方法
-- ├── middlewares - 中间件
-- ├── redux - redux目录
-- ├── routes  - 应用导航路由配置
-- ├── sagas - 应用异步任务管理sagas目录
-- ├── screens - 应用组件屏目录，通常是展示型组件
-- └── services  - 应用内服务模块目录，如应用状态持久化及恢复服务
+```
+src - App项目React Native部分目录
+├── api - 应用网络请求相关配置
+├── app.js  - React Native部分入口js文件
+├── components  - 可复用纯UI组件，也可作elements
+├── config  - 应用全局配置
+├── constants - 应用全局变量
+├── containers  - 容器组件
+├── helpers - 全局工具／辅助方法
+├── middlewares - 中间件
+├── redux - redux目录
+├── routes  - 应用导航路由配置
+├── sagas - 应用异步任务管理sagas目录
+├── screens - 应用组件屏目录，通常是展示型组件
+└── services  - 应用内服务模块目录，如应用状态持久化及恢复服务
+```
