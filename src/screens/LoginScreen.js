@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { StackNavigator } from 'react-navigation';
 import { StyleSheet,
   Button,
+  Text,
   View,
   TextInput,
   TouchableOpacity
@@ -61,23 +62,34 @@ export default class LoginScreen extends Component {
 
     return (
       <View style={styles.container}>
-        <TextInput
-          placeholder='Type username here...'
-          autoCapitalize={'none'}
-          returnKeyType={'done'}
-          autoCorrect={false}
-          defaultValue={username}
-          onChangeText={this.handleUsernameInput} />
-        <TextInput
-          secureTextEntry={true}
-          placeholder='Type password here...'
-          returnKeyType={'done'}
-          autoCapitalize={'none'}
-          autoCorrect={false}
-          defaultValue={password}
-          onChangeText={this.handlePasswordInput} />
-        <TouchableOpacity activeOpacity={1} style={[styles.submit, submitExtraStyles]}>
-          <Button onPress={this.submit} title={'Login'} style={styles.text} />
+        <View style={styles.name}>
+          <Text>用户名：</Text>
+          <TextInput
+            style={styles.loginInfo}
+            placeholder='Type username here...'
+            autoCapitalize={'none'}
+            returnKeyType={'done'}
+            autoCorrect={false}
+            defaultValue={username}
+            onChangeText={this.handleUsernameInput} />
+        </View>
+        <View style={styles.name}>
+          <Text>密码：</Text>
+          <TextInput
+            style={styles.loginInfo}
+            secureTextEntry={true}
+            placeholder='Type password here...'
+            returnKeyType={'done'}
+            autoCapitalize={'none'}
+            autoCorrect={false}
+            defaultValue={password}
+            onChangeText={this.handlePasswordInput} />
+        </View>
+        
+        <TouchableOpacity 
+          activeOpacity={1} 
+          style={[styles.submit, submitExtraStyles]}>
+          <Button onPress={this.submit} title={'登录'} style={styles.text} />
 				</TouchableOpacity>
       </View>
     )
@@ -105,5 +117,18 @@ const styles = StyleSheet.create({
   },
   submitLoading: {
     backgroundColor: 'grey'
+  },
+  loginInfo: {
+    backgroundColor: "#f8f8f8",
+    padding: 6,
+    fontSize: 16,
+    color: "#333"
+  },
+  name: {
+
+  },
+  text: {
+    backgroundColor: "red",
+    color: "#fff"
   }
 });
