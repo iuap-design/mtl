@@ -10,24 +10,29 @@
 
 基于 `React Native` 的移动 `App` 开发框架
 
-## 环境准备
+## 1、环境准备
 
 > 以在 Mac 上开发为例。
 
 - 全局 Node.js 环境
-- 确保电脑安装了 XCode 开发工具
-  - XCode 配置：Mac OSX下打开Xcode编辑器的Menu -> Preferences -> Locations，然后配置命令行工具选择Xcode。
+- 安装 XCode 开发工具（XCode 配置：Mac OSX下打开Xcode编辑器的Menu -> Preferences -> Locations，然后配置命令行工具选择Xcode。）
 
-## 下载和安装
+## 2、下载和安装
 
 1. Install the react-native-cli
   ```
-  npm install -g react-native-cli
+  $ npm install -g react-native-cli
   ```
 2. `npm install`
-3. `npm run ios` 
+```
+# 用友内部开发者可使用 ynpm 加速下载
+$ npm install ynpm-tool -g
+$ ynpm i
+```
+3. `npm run ios` 启动需要等待近 5 分钟，可以去泡杯咖啡。启动后会自动打开 CLI 命令行，并打开模拟器。如下：
+![](./Moniter-Snapshot.jpg)
 
-## 技术栈
+## 3、框架能力集成
 
 1. 基础框架/类库：React Native 、React；
 2. 应用导航方案：react-navigation；
@@ -36,9 +41,9 @@
 5. 持久化方案：redux-persist、AsyncStorage、redux-persist-immutable（Immutable化状态树的持久化）；
 6. 异步方案：redux-saga（网络请求，异步读取本地数据等）；
 7. 测试：jest；
-8. 调试工具：reactotron
+8. 调试工具：reactotron（跟踪sagas、查看应用程序状态、显示log。。。）
 
-## 项目结构说明
+## 4、项目结构说明
 
 ```
 src - App项目React Native部分目录
@@ -56,3 +61,7 @@ src - App项目React Native部分目录
 ├── screens - 应用组件屏目录，通常是展示型组件
 └── services  - 应用内服务模块目录，如应用状态持久化及恢复服务
 ```
+
+## 5、开发文档
+
+TODO...
