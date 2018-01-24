@@ -1,4 +1,4 @@
-# mtl-framework 多端开发框架
+# MTL 多端开发解决方案
 
 
 [![npm version](https://img.shields.io/npm/v/mtl-framework.svg)](https://www.npmjs.com/package/mtl-framework)
@@ -8,9 +8,15 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Percentage of issues still open")
 
-基于 `React Native` 的移动 `App` 开发框架
+`MTL` 基于 `React Native` 向上构建的多端一体化 `App` 解决方案，帮助开发者真正实现一套代码三端运行（IOS、Android、Mobile Web）
 
-# 快速上手
+## 关键特性
+
+- 你只需要懂 Web 开发，那么你就能用 MTL 快速开发属于你的移动应用
+- 提供 SDK、框架、工具、服务多位一体的方案，让开发过程如丝滑版柔顺
+- 三端通用的 UI 组件，向上构建的智能和业务组件，让应用快人一步
+
+## 快速上手
 
 [:fire: :fire: :fire:  基于 MTL 快速开发属于你的 App](./doc/useage.md)
 
