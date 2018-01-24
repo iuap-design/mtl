@@ -10,59 +10,42 @@
 
 基于 `React Native` 的移动 `App` 开发框架
 
-## 1、环境准备
+# 快速上手
 
-> 以在 Mac 上开发为例。
+[:fire: :fire: :fire:  基于 MTL 快速开发属于你的 App](./doc/useage.md)
 
-- 全局 Node.js 环境
-- 安装 XCode 开发工具（XCode 配置：Mac OSX下打开Xcode编辑器的Menu -> Preferences -> Locations，然后配置命令行工具选择Xcode。）
+## MTL 生态说明
 
-## 2、下载和安装
+- MTL开发框架：[mtl-framework]()
+- MTL Cli 工具：[mtl-cli]()
+- MTL 打包工具：[mtl-pack]()
+- MTL 基础框架：[mtl-sdk]()
+- MTL 通用组件 ListView：[mtl-component-listview]()
 
-1. Install the react-native-cli
-  ```
-  $ npm install -g react-native-cli
-  ```
-2. `npm install`
-```
-# 用友内部开发者可使用 ynpm 加速下载
-$ npm install ynpm-tool -g
-$ ynpm i
-```
-3. `npm run ios` 启动需要等待近 5 分钟，可以去泡杯咖啡。启动后会自动打开 CLI 命令行，并打开模拟器。如下：
+## 更多
 
-<img src="./Moniter-Snapshot.jpg" width="200" />
+....进行中
 
-## 3、框架能力集成
+## 协议
 
-1. 基础框架/类库：React Native 、React；
-2. 应用导航方案：react-navigation；
-3. 应用状态管理：redux、react-redux；
-4. 数据管理：Immutable.js、redux-immutable；
-5. 持久化方案：redux-persist、AsyncStorage、redux-persist-immutable（Immutable化状态树的持久化）；
-6. 异步方案：redux-saga（网络请求，异步读取本地数据等）；
-7. 测试：jest；
-8. 调试工具：reactotron（跟踪sagas、查看应用程序状态、显示log。。。）
+MIT License
 
-## 4、项目结构说明
+Copyright (c) 2018 Yonyou FED
 
-```
-src - 
-├── api - 应用网络请求相关配置
-├── app.js  - React Native部分入口js文件
-├── components  - 可复用纯UI组件，也可作elements
-├── config  - 应用全局配置
-├── constants - 应用全局变量
-├── containers  - 容器组件
-├── helpers - 全局工具／辅助方法
-├── middlewares - 中间件
-├── redux - redux目录
-├── routes  - 应用导航路由配置
-├── sagas - 应用异步任务管理sagas目录
-├── screens - 应用组件屏目录，通常是展示型组件
-└── services  - 应用内服务模块目录，如应用状态持久化及恢复服务
-```
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## 5、开发文档
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-TODO...
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

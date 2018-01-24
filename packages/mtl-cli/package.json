@@ -1,0 +1,16 @@
+{
+  "name": "mtl-cli",
+  "version": "1.0.0",
+  "description": "mtl cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "mtl",
+    "cli",
+    "commander"
+  ],
+  "author": "yonyou",
+  "license": "ISC"
+}
