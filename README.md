@@ -8,7 +8,7 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Percentage of issues still open")
 
-`MTL` 基于 `React Native` 向上构建的多端一体化 `App` 解决方案，帮助开发者真正实现一套代码三端运行（IOS、Android、Mobile Web）
+`MTL` 是基于 `React Native` 向上构建的多端一体化 `App` 解决方案，帮助开发者真正实现一套代码三端运行（IOS、Android、Mobile Web）
 
 ## 为什么选择 MTL
 
@@ -26,7 +26,7 @@
 - MTL CLI 工具：[mtl-cli]()
 - MTL 打包工具：[mtl-pack]()
 - MTL 基础框架：[mtl-sdk]()
-- MTL-Web 方案[mtl-rn2web]()
+- MTL-Web 方案：[mtl-rn2web]()
 - MTL 通用组件 ListView：[mtl-component-listview]()
 - MTL 通用组件 Chat[mtl-component-chat]()
 - ....
