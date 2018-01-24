@@ -22,10 +22,10 @@
 
 ## MTL 生态说明
 
-- 基于 `MTL` 的应用平台：[mtl-app](./packages/mtl-apps)
+- 基于 `MTL` 的应用平台：[mtl-apps](./packages/mtl-apps)
 - `MTL CLI` 工具：[mtl-cli](./packages/mtl-cli)
 - `MTL` 打包工具：[mtl-pack](./packages/mtl-pack)
-- `MTL` 基础框架：[mtl-apps](./packages/mtl-framework)
+- `MTL` 基础框架：[mtl-framework](./packages/mtl-framework)
 - `MTL-Web` 方案：[mtl-rn2web](./packages/mtl-rn2web)
 - `MTL` 通用组件 ListView：[mtl-component-listview](./packages/mtl-component-listview)
 - `MTL` 通用组件 Chat：[mtl-component-chat](./packages/mtl-component-chat)
