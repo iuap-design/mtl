@@ -1,12 +1,12 @@
 # MTL 多端开发解决方案
 
 
-[![npm version](https://img.shields.io/npm/v/mtl-framework.svg)](https://www.npmjs.com/package/mtl-framework)
-[![Build Status](https://img.shields.io/travis/iuap-design/mtl-framework/master.svg)](https://travis-ci.org/iuap-design/mtl-framework)
-[![Coverage Status](https://coveralls.io/repos/github/iuap-design/mtl-framework/badge.svg?branch=master)](https://coveralls.io/github/iuap-design/mtl-framework?branch=master)
-[![NPM downloads](http://img.shields.io/npm/dm/mtl-framework.svg?style=flat)](https://npmjs.org/package/mtl-framework)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl-framework.svg)](http://isitmaintained.com/project/iuap-design/mtl-framework "Percentage of issues still open")
+[![npm version](https://img.shields.io/npm/v/mtl-apps.svg)](https://www.npmjs.com/package/mtl-apps)
+[![Build Status](https://img.shields.io/travis/iuap-design/mtl-apps/master.svg)](https://travis-ci.org/iuap-design/mtl-apps)
+[![Coverage Status](https://coveralls.io/repos/github/iuap-design/mtl-apps/badge.svg?branch=master)](https://coveralls.io/github/iuap-design/mtl-apps?branch=master)
+[![NPM downloads](http://img.shields.io/npm/dm/mtl-apps.svg?style=flat)](https://npmjs.org/package/mtl-apps)
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/iuap-design/mtl-apps.svg)](http://isitmaintained.com/project/iuap-design/mtl-apps "Average time to resolve an issue")
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/iuap-design/mtl-apps.svg)](http://isitmaintained.com/project/iuap-design/mtl-apps "Percentage of issues still open")
 
 `MTL` 是基于 `React Native` 向上构建的多端一体化 `App` 解决方案，帮助开发者真正实现一套代码三端运行（IOS、Android、Mobile Web）
 
@@ -18,14 +18,14 @@
 
 ## 快速上手
 
-[:fire: :fire: :fire:  基于 MTL 快速开发属于你的 App](./doc/useage.md)
+[:fire: :fire: :fire:  基于 MTL 快速开发属于你的 App](./packages/mtl-apps/README.md)
 
 ## MTL 生态说明
 
-- 基于 `MTL` 的应用平台：[mtl-app](./packages/mtl-app)
+- 基于 `MTL` 的应用平台：[mtl-app](./packages/mtl-apps)
 - `MTL CLI` 工具：[mtl-cli](./packages/mtl-cli)
 - `MTL` 打包工具：[mtl-pack](./packages/mtl-pack)
-- `MTL` 基础框架：[mtl-framework](./packages/mtl-framework)
+- `MTL` 基础框架：[mtl-apps](./packages/mtl-framework)
 - `MTL-Web` 方案：[mtl-rn2web](./packages/mtl-rn2web)
 - `MTL` 通用组件 ListView：[mtl-component-listview](./packages/mtl-component-listview)
 - `MTL` 通用组件 Chat：[mtl-component-chat](./packages/mtl-component-chat)
