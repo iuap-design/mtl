@@ -17,7 +17,8 @@ export default class MySelfTabScreen extends Component {
     return (
       <ScrollView>
         <TouchableOpacity onPress={this.handleLogoutClick}>
-          <Text>{'退出'}</Text>
+          <Text>{"个人中心"}</Text>
+          <Text>{'退出应用'}</Text>
         </TouchableOpacity>
       </ScrollView>
     )

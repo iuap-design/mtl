@@ -11,7 +11,7 @@ export default class NotificationTabScreen extends Component {
   render () {
     return (
       <ScrollView>
-        <Text>{'消息通知'}</Text>
+        <Text>{'工作台'}</Text>
       </ScrollView>
     )
   }

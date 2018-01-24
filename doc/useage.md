@@ -13,13 +13,13 @@
   ```
   $ npm install -g react-native-cli
   ```
-2. `npm install`
+2. 初始化应用
 ```
 # 用友内部开发者可使用 ynpm 加速下载
-$ npm install ynpm-tool -g
-$ ynpm i
+$ git clone git@github.com:iuap-design/mtl.git
+$ cd packages/mtl-apps & npm install
 ```
-3. `npm run ios` 启动需要等待近 5 分钟，可以去泡杯咖啡。启动后会自动打开 CLI 命令行，并打开模拟器。如下：
+3. `npm run ios` 启动应用，需要等待近 5 分钟，可以去泡杯咖啡。启动后会自动打开 CLI 命令行，并打开模拟器。如下：
 
 <img src="./assets/Moniter-Snapshot.jpg" width="200" />
 
