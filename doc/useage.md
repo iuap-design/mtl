@@ -21,7 +21,7 @@ $ ynpm i
 ```
 3. `npm run ios` 启动需要等待近 5 分钟，可以去泡杯咖啡。启动后会自动打开 CLI 命令行，并打开模拟器。如下：
 
-<img src="./Moniter-Snapshot.jpg" width="200" />
+<img src="./assets/Moniter-Snapshot.jpg" width="200" />
 
 ## 3、框架能力集成
 
