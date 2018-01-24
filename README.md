@@ -10,11 +10,11 @@
 
 `MTL` 基于 `React Native` 向上构建的多端一体化 `App` 解决方案，帮助开发者真正实现一套代码三端运行（IOS、Android、Mobile Web）
 
-## 关键特性
+## 为什么选择 MTL
 
-- 你只需要懂 Web 开发，那么你就能用 MTL 快速开发属于你的移动应用
-- 提供 SDK、框架、工具、服务多位一体的方案，让开发过程如丝滑版柔顺
-- 三端通用的 UI 组件，向上构建的智能和业务组件，让应用快人一步
+- :rocket: 你只需要懂 Web 开发，那么你就能用 MTL 快速开发属于你的移动应用
+- :wrench: 提供 SDK、框架、工具、服务多位一体的方案，让开发过程如丝滑版柔顺
+- :zap: 三端通用的 UI 组件，向上构建的智能和业务组件，让应用快人一步
 
 ## 快速上手
 
@@ -29,6 +29,7 @@
 - MTL-Web 方案[mtl-rn2web]()
 - MTL 通用组件 ListView：[mtl-component-listview]()
 - MTL 通用组件 Chat[mtl-component-chat]()
+- ....
 
 ## 更多
 
