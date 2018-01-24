@@ -13,34 +13,41 @@ const HomeTabs = TabNavigator(
       screen: HomeTabScreens.WorkflowTabScreen,
       path: 'workflow',
       navigationOptions: {
-        title: '工作台'
+        title: '消息'
       }
     },
     CustomerMap: {
       screen: HomeTabScreens.CustomerMapTabScreen,
       path: 'customer_map',
       navigationOptions: {
-        title: '客户地图'
+        title: '工作圈'
       }
     },
     Notification: {
       screen: HomeTabScreens.NotificationTabScreen,
       path: 'notification',
       navigationOptions: {
-        title: '消息通知'
+        title: '工作台'
+      }
+    },
+    OrgStructure: {
+      screen: HomeTabScreens.OrgStructureTabScreen,
+      path: 'notification',
+      navigationOptions: {
+        title: '通讯录'
       }
     },
     Myself: {
       screen: MyselfTabContainer,
       path: 'myself',
       navigationOptions: {
-        title: '我的'
+        title: '我'
       }
     },
   },
   {
     tabBarOptions: {
-      activeTintColor: Platform.OS === 'ios' ? '#e91e63' : '#fff',
+      activeTintColor: Platform.OS === 'ios' ? 'red' : '#fff',
     },
     swipeEnabled: true
   }

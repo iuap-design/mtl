@@ -12,7 +12,7 @@ export default class WorkflowTabScreen extends Component {
   render () {
     return (
       <ScrollView>
-        <Text>{'工作台'}</Text>
+        <Text>{'消息'}</Text>
       </ScrollView>
     )
   }

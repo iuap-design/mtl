@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, StyleSheet, Text, Image } from 'react-native';
 
-export default class CustomerMapTabScreen extends Component {
+export default class OrgStructureTabScreen extends Component {
   constructor (...arg) {
     super(...arg);
 
@@ -11,7 +11,7 @@ export default class CustomerMapTabScreen extends Component {
   render () {
     return (
       <ScrollView>
-        <Text>{'工作圈'}</Text>
+        <Text>{'通讯录'}</Text>
       </ScrollView>
     )
   }
