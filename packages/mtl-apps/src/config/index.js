@@ -5,7 +5,7 @@
 
 const Config = {
   // 项目命名空间
-  namespace: 'FUC',
+  namespace: 'mtl',
 
   // 添加项目命名空间
   setNameSpaces (name, namespaces = '') {

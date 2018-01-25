@@ -20,6 +20,8 @@
 
 [:fire: :fire: :fire:  基于 MTL 快速开发属于你的 App](./packages/mtl-apps/README.md)
 
+[如果你是个新手，这里有很多相关技术资料可供充电。](./doc/react-native-resource.md)
+
 ## MTL 生态说明
 
 - 基于 `MTL` 的应用平台：[mtl-apps](./packages/mtl-apps)
@@ -34,6 +36,8 @@
 ## 更多
 
 ....进行中
+
+
 
 ## 协议
 
