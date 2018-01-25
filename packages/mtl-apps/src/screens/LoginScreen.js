@@ -9,7 +9,7 @@ import { StyleSheet,
   TouchableOpacity
 } from 'react-native';
 import { routes } from '../config';
-import Icon from '../components/Icon';
+// import Icon from '../components/Icon';
 
 export default class LoginScreen extends Component {
   constructor(...arg) {
@@ -64,22 +64,19 @@ export default class LoginScreen extends Component {
     return (
       <View style={styles.container}>
         <View style={styles.name}>
-          <View style={{ flexDirection:'row', }}>
-            <Icon
-                name='user'
-                style={{ width: 20 }}
-            />
+          
+          <View style={{ flexDirection:'row' }}>
+            {/* <Text style={{ fontFamily: "moli"}}>&#xe61d;</Text> */}
             <Text>用户名：</Text>
+            <TextInput
+              style={styles.loginInfo}
+              placeholder='Type username here...'
+              autoCapitalize={'none'}
+              returnKeyType={'done'}
+              autoCorrect={false}
+              defaultValue={username}
+              onChangeText={this.handleUsernameInput} />
           </View>
-
-          <TextInput
-            style={styles.loginInfo}
-            placeholder='Type username here...'
-            autoCapitalize={'none'}
-            returnKeyType={'done'}
-            autoCorrect={false}
-            defaultValue={username}
-            onChangeText={this.handleUsernameInput} />
         </View>
         <View style={styles.name}>
           <Text>密码：</Text>

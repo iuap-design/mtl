@@ -7,7 +7,8 @@
 - [React Native 官网](https://facebook.github.io/react-native/)
 - [React 官网](https://reactjs.org/)
 - [CSS 弹性盒子布局](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout)
-
+- [RN 中关于 Flexbox 的使用口诀](./flexbox.md)
+- [React-Native使用自定义字体文件iconfont](https://www.jianshu.com/p/96d5c66791c3)
 ## 组件
 
 - [js.coach](https://js.coach/)
