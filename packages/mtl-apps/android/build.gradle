@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-         maven { url "http://maven.aliyun.com/" }
+         jcenter()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.3'
