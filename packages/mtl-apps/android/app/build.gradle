@@ -79,6 +79,19 @@ project.ext.react = [
 apply from: "../../node_modules/react-native/react.gradle"
 
 /**
+ * 设置icon
+ */
+
+project.ext.vectoricons = [
+
+iconFontNames: [ 'iconfont.ttf' ]
+
+]
+
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+
+/**
  * Set this to true to create two separate APKs instead of one:
  *   - An APK that only works on ARM devices
  *   - An APK that only works on x86 devices
@@ -137,6 +150,7 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-vector-icons')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
@@ -148,3 +162,5 @@ task copyDownloadableDepsToLibs(type: Copy) {
     from configurations.compile
     into 'libs'
 }
+
+
