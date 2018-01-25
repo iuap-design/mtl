@@ -45,9 +45,18 @@ const HomeTabs = TabNavigator(
       }
     },
   },
+  // 控制 TabNav 组件的位置，动画，激活后的颜色等
   {
+    tabBarPorion: "bottom",
     tabBarOptions: {
-      activeTintColor: Platform.OS === 'ios' ? 'red' : '#fff',
+      activeTintColor: Platform.OS === 'ios' ? '#e14c46' : 'red',
+      labelStyle: {
+        fontSize: 12,
+        paddingBottom: 6
+      },
+      style: {
+        backgroundColor: '#daf2eb',
+      }
     },
     swipeEnabled: true
   }
