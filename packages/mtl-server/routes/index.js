@@ -1,15 +1,19 @@
-var router = require('koa-router')();
+const router = require('koa-router')()
 
-router.get('/', function *(next) {
-  yield this.render('index', {
-    title: '欢迎使用 MTL App!'
-  });
-});
+router.get('/', async (ctx, next) => {
+  await ctx.render('index', {
+    title: 'Hello Koa 2!'
+  })
+})
 
-router.get('/foo', function *(next) {
-  yield this.render('index', {
-    title: '欢迎使用 MTL foo!'
-  });
-});
+router.get('/string', async (ctx, next) => {
+  ctx.body = 'koa2 string'
+})
 
-module.exports = router;
+router.get('/json', async (ctx, next) => {
+  ctx.body = {
+    title: 'koa2 json'
+  }
+})
+
+module.exports = router
