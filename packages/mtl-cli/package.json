@@ -1,6 +1,6 @@
 {
   "name": "mtl-cli",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "A CLI tool for MTL Framework",
   "main": "./bin/mtl",
   "scripts": {
