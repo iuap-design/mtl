@@ -1,16 +1,41 @@
 {
   "name": "mtl-cli",
-  "version": "0.1.0",
-  "description": "mtl cli",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A CLI tool for MTL Framework",
+  "main": "./bin/mtl",
   "scripts": {
-    "test": "test"
+    "test": "node ./bin/mtl init",
+    "build": "rm -rf lib && babel src -d lib -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iuap-design/mtl.git"
   },
   "keywords": [
-    "mtl",
-    "cli",
-    "commander"
+    "MTL",
+    "CLI",
+    "quickstart"
   ],
-  "author": "yonyou",
-  "license": "ISC"
+  "author": "guoyongfeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iuap-design/mtl/issues"
+  },
+  "homepage": "https://github.com/iuap-design/mtl#readme",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "cross-spawn": "^6.0.5",
+    "fs-extra": "^5.0.0",
+    "path-exists": "^3.0.0",
+    "update-notifier": "^2.3.0"
+  }
 }
