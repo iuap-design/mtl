@@ -1,0 +1,18 @@
+{
+  "name": "mtl-component-header",
+  "version": "1.0.0",
+  "description": "header component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/iuap-design/mtl.git"
+  },
+  "keywords": [
+    "Header"
+  ],
+  "author": "guoyongfeng",
+  "license": "ISC"
+}

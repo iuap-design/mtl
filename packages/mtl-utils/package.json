@@ -1,0 +1,21 @@
+{
+  "name": "mtl-utils",
+  "version": "0.0.1",
+  "description": "useful APIs for mtl App",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d es"
+  },
+  "keywords": [
+    "APIs"
+  ],
+  "author": "guoyongfeng",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}

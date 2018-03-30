@@ -1,0 +1,32 @@
+{
+  "name": "mtl-tools-images2base64",
+  "version": "1.0.0",
+  "description": "a tools help convert images to base64 format",
+  "main": "index.js",
+  "bin": {
+    "images2base64": "./bin/image2base64.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guoyongfeng",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iuap-design/mtl.git"
+  },
+  "keywords": [
+    "image",
+    "base64"
+  ],
+  "bugs": {
+    "url": "https://github.com/iuap-design/mtl/issues"
+  },
+  "homepage": "https://github.com/iuap-design/mtl#readme",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "chalk": "^2.3.2",
+    "commander": "^2.15.1",
+    "glob": "^7.1.2"
+  }
+}

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const updateNotifier = require('update-notifier');
 const chalk = require('chalk'); // 命令行内字体展示处理
 const program = require('commander'); // 窗口对话信息和
