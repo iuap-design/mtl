@@ -64,6 +64,7 @@ let urlEncoded = (data) => {
 
 /**
  * @class Request
+ * 使用前需要引入并实例化
  */
 export default class Request {
     constructor( obj ){

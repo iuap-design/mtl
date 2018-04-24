@@ -1,5 +1,5 @@
 {
-  "name": "mtl-tools-images2base64",
+  "name": "mtl-tools-base64",
   "version": "1.0.0",
   "description": "a tools help convert images to base64 format",
   "main": "index.js",
