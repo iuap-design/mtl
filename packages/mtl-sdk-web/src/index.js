@@ -1,63 +1,48 @@
+// import init from './lib/init'
+// import getData from './lib/getData'
+// import embed from './lib/embed'
+import React from 'react'
+import ReactDOM, { render } from 'react-dom'
 
-/**
- * 接口协议解析引擎（web)
- * auth: yoffe
- * Date: 2018-04-24
- */
-
- /**
-  * usage：
-  * import MTLSDKWeb from 'mtl-sdk-web'
-  * new MTLSDKWeb(data)
-  */
 export default class MTLSDKWeb {
-    constructor(data){
-        this.data = data;
-        this.init()
-        this.state = {}
-    }
-    init(){
-        if( data && data.endpoint && data.structure ) {
-            const { 
-                // 终端类型说明
-                endpoint,
-                // 描述组件布局和结构
-                structure,
-                // 组件数据说明，id是组件的唯一标识
-                data,
-                //
-                linkage
-            } = this.data;
-            this.state.data = data;
-            this.
+    constructor(){
+        this.state = {
+            collect: null
         }
-        this.render();
+        this.data = {}
+        this.init();
     }
-    resolve(){
+    init(data){
+        this.data = data;
+    }
+    embed(id, callback){
+        let _this = this
+        // 返回回来的 node 必须是 React 组件
+        const node = callback(_this.data)
 
+        this.nodeCollect(node)
     }
-    setState(obj){
-        this.state = Object.assign(this.state, obj)
+    nodeCollect(node){
+        thi.state.collect.push(node);
     }
-    osDecide(osInfo){
-        return this.state.endpoint.os;
-    }
-    screenDecide(screenInfo){
-        return this.state.endpoint.screen;
-    }
-    getVersion(){
-        return this.state.endpoint.version;
-    }
-    render(){
+    generateRootComponent(){
         return (
-            <div>
-                { 
-                    if(this.osDecide() == "web"){
-                        
-                    }
-            }
+            <div className="root">
+                { this.state.collect }
             </div>
         )
     }
-}
+    render( id ){
+        const root = this.generateRootComponent()
+        render(root, getElementById(id))
+    }
+    update(){
+        update()
+    }
+    fire(params, callback){
+        axios(params);
+    }
+    willReceiveData(data){
 
+    }
+}

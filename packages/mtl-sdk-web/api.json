@@ -1,18 +1,30 @@
 {
     "endpoint": {
         "screen": "pc",
-        "os": "iOS",
-        "version": "2.0" 
+        "os": "mac",
+        "version": "1.0" 
     },
-    "structure": {
+    "components": {
         "type": "absolutely",
-        "components": [{
+        "structure": [{
             "width": 240,
             "height": 160,
             "top": 20,
             "left": 40,
             "cId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
-            "dsId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06"
+            "dsId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
+            "hashChild": true,
+            "flowType": "",
+            "childId": ["43423"]
+        },{
+            "width": 240,
+            "height": 160,
+            "top": 20,
+            "left": 40,
+            "cId": "4782364278648",
+            "dsId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
+            "hashChild": false,
+            "childId": "4782364278648"
         }]
     },
     "data": {
@@ -34,7 +46,7 @@
         "queryParams": "^^$$Z",　　　
         "submitParams": "^^$$Z"
     },
-    "checkcode": {
-
-    }
+    "checkcode": "wq4erew23433dw243",
+    "reload": true,
+    "status": "success"
 }
