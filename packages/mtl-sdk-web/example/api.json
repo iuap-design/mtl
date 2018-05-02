@@ -1,0 +1,52 @@
+{
+    "endpoint": {
+        "screen": "pc",
+        "os": "mac",
+        "version": "1.0" 
+    },
+    "components": {
+        "type": "absolutely",
+        "structure": [{
+            "width": 240,
+            "height": 160,
+            "top": 20,
+            "left": 40,
+            "cId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
+            "dsId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
+            "hasChild": true,
+            "flowType": "",
+            "childId": ["43423"]
+        },{
+            "width": 240,
+            "height": 160,
+            "top": 20,
+            "left": 40,
+            "cId": "4782364278648",
+            "dsId": "0d94d82d-1194-44a9-b01f-3daf7f52cb06",
+            "hashChild": false,
+            "childId": "4782364278648"
+        }]
+    },
+    "data": {
+        "id": "7f418e20-01dd-4500-a272-3a3f68c2bd9f",
+        "fields": {
+            "code": "001",
+            "name": "xxx",
+            "address": [{
+                "type": "company",
+                "info": "bj"
+            },{
+                "type": "home",
+                "info": "cq"
+            }]
+        }
+    },
+    "linkage": {
+      "compress": "true",
+      "queryParams": "222",
+      "submitParams": "33"
+    },
+    "checkcode": "wq4erew23433dw243",
+    "reload": true,
+    "status": "success"
+}

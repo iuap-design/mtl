@@ -1,11 +1,16 @@
 const path = require('path');
 const webpack = require('webpack');
-const publicPath = path.resolve(__dirname, 'dist')
+let publicPath;
 
 // env 可以配置全局环境变量
 module.exports = function(env) {
+    if(env.mode == "development")
+        publicPath = path.resolve(__dirname, 'example')
+    else
+        publicPath = path.resolve(__dirname, 'dist')
+    
     return {
-        mode: "production",
+        mode: env.mode,
         entry: './src/index.js',
         output: {
             filename: 'MTLSDKWeb.js',
@@ -24,7 +29,8 @@ module.exports = function(env) {
         },
         externals: {
             react: 'react',
-            'react-dom': 'react-dom'
+            'react-dom': 'react-dom',
+            axios: 'axios'
         },
         plugins: [
             new webpack.BannerPlugin({

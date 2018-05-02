@@ -1,31 +1,38 @@
 const path = require('path');
 const webpack = require('webpack');
-const publicPath = path.resolve(__dirname, 'dist')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-// env 可以配置全局环境变量
 module.exports = function(env) {
+    console.log('-----')
     return {
         mode: "development",
-        entry: './src/index.js',
+        entry: './index.js',
+        devtool: "cheap-eval-source-map",
         output: {
             filename: '[name].js',
-            path: publicPath,
+            path: path.resolve(__dirname, "./")
         },
         module: {
-            rules: [
-                {
-                    test: /\.js$/,
-                    exclude: /(node_modules|bower_components)/,
-                    use: 'babel-loader'
+            rules: [{
+                test: /\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: { presets: ['env', 'react', 'stage-0']}
                 }
-            ]
+            }]
         },
         devServer: {
-            contentBase: "../"
+            contentBase: "./"
         },
-        
+        resolve: {
+            extensions: [" ", ".js", ".jsx", ".json"]
+        },
         plugins: [
-            
+            new HtmlWebpackPlugin({
+                filename: 'index.html',
+                template: './index.html'
+            })
         ]
     }
 }

@@ -41,10 +41,10 @@
             }]
         }
     },
-    "linkage": {　　　　　　　　　
-        "compress": true,
-        "queryParams": "^^$$Z",　　　
-        "submitParams": "^^$$Z"
+    "linkage": {
+      "compress": "true",
+      "queryParams": "222",
+      "submitParams": "33"
     },
     "checkcode": "wq4erew23433dw243",
     "reload": true,
