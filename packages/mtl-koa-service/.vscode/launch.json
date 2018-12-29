@@ -18,8 +18,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/packages/mtl-koa-service/app.js"
+            "name": "调试node服务",
+            "program": "${workspaceFolder}/app.js"
         }
     ]
 }

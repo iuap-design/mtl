@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 
 import SDKApp from './SDKApp'
+import localStore from 'tinper-storage/lib/localStore';
+import sessionStore from 'tinper-storage/lib/sessionStore'
+
+// 使用
+console.log(localStore);
 
 class App extends Component {
     render(){
